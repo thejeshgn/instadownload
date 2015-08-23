@@ -1,0 +1,11 @@
+common:
+  database: "sqlite:///./db/database.sqlite"
+  prefix: export/
+  format: csv
+
+exports:
+
+  - query: "select picture_url from instagram;"
+    filename: "csv/instagram.csv"
+    format: csv
+
