@@ -2,7 +2,6 @@ from __future__ import with_statement
 import sys
 import requests
 import json
-from easygui import * 
 import sqlite3 as lite
 import dataset
 import wget
